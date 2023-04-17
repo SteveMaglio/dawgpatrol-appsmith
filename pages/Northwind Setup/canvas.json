@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "Northwind Setup",
+    "slug": "northwind-setup",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1000,
+          "bottomRow": 1290,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -101,7 +101,7 @@
               "defaultSelectedRowIndices": [
                 0
               ],
-              "widgetName": "Table1",
+              "widgetName": "Products",
               "defaultPageSize": 0,
               "columnOrder": [
                 "id",
@@ -147,7 +147,7 @@
                   "label": "id",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
+                  "computedValue": "{{Products.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
@@ -173,10 +173,10 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "list_price",
+                  "label": "list price",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"list_price\"]))}}",
+                  "computedValue": "{{Products.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"list_price\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
@@ -202,10 +202,10 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "product_code",
+                  "label": "product code",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"product_code\"]))}}",
+                  "computedValue": "{{Products.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"product_code\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
@@ -231,10 +231,10 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "product_name",
+                  "label": "product name",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"product_name\"]))}}",
+                  "computedValue": "{{Products.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"product_name\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
@@ -336,7 +336,7 @@
               "defaultSelectedRowIndices": [
                 0
               ],
-              "widgetName": "Table2",
+              "widgetName": "Customers",
               "defaultPageSize": 0,
               "columnOrder": [
                 "last_name",
@@ -382,10 +382,10 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "business_phone",
+                  "label": "business phone",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"business_phone\"]))}}",
+                  "computedValue": "{{Customers.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"business_phone\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
@@ -414,7 +414,7 @@
                   "label": "company",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"company\"]))}}",
+                  "computedValue": "{{Customers.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"company\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
@@ -440,10 +440,10 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "first_name",
+                  "label": "first name",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"first_name\"]))}}",
+                  "computedValue": "{{Customers.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"first_name\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
@@ -469,10 +469,10 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "job_title",
+                  "label": "job title",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"job_title\"]))}}",
+                  "computedValue": "{{Customers.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"job_title\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
@@ -498,10 +498,10 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "last_name",
+                  "label": "last name",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"last_name\"]))}}",
+                  "computedValue": "{{Customers.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"last_name\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
@@ -600,7 +600,7 @@
               "defaultSelectedRowIndices": [
                 0
               ],
-              "widgetName": "Table3",
+              "widgetName": "MostExpensiveProducts",
               "defaultPageSize": 0,
               "columnOrder": [
                 "product_name",
@@ -643,10 +643,10 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "list_price",
+                  "label": "list price",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table3.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"list_price\"]))}}",
+                  "computedValue": "{{MostExpensiveProducts.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"list_price\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
@@ -672,10 +672,10 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "product_code",
+                  "label": "product code",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table3.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"product_code\"]))}}",
+                  "computedValue": "{{MostExpensiveProducts.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"product_code\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
@@ -701,10 +701,10 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "product_name",
+                  "label": "product name",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table3.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"product_name\"]))}}",
+                  "computedValue": "{{MostExpensiveProducts.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"product_name\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
@@ -730,10 +730,10 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "reorder_level",
+                  "label": "reorder level",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table3.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"reorder_level\"]))}}",
+                  "computedValue": "{{MostExpensiveProducts.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"reorder_level\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
@@ -756,13 +756,219 @@
               "responsiveBehavior": "fill",
               "isVisiblePagination": true,
               "verticalAlignment": "CENTER"
+            },
+            {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "borderColor": "#E0DEDE",
+              "isVisibleDownload": true,
+              "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
+              "topRow": 101,
+              "isSortable": true,
+              "type": "TABLE_WIDGET_V2",
+              "inlineEditingSaveOption": "ROW_LEVEL",
+              "animateLoading": true,
+              "dynamicBindingPathList": [
+                {
+                  "key": "tableData"
+                },
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                },
+                {
+                  "key": "primaryColumns.floor_num.computedValue"
+                },
+                {
+                  "key": "primaryColumns.section_id.computedValue"
+                },
+                {
+                  "key": "primaryColumns.section_name.computedValue"
+                }
+              ],
+              "needsHeightForContent": true,
+              "leftColumn": 0,
+              "delimiter": ",",
+              "defaultSelectedRowIndex": 0,
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisibleFilters": true,
+              "isVisible": true,
+              "enableClientSideSearch": true,
+              "version": 1,
+              "totalRecordsCount": 0,
+              "isLoading": false,
+              "childStylesheet": {
+                "button": {
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "menuButton": {
+                  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "iconButton": {
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "editActions": {
+                  "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                }
+              },
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "columnUpdatedAt": 1681594432579,
+              "defaultSelectedRowIndices": [
+                0
+              ],
+              "widgetName": "Sections",
+              "defaultPageSize": 0,
+              "columnOrder": [
+                "floor_num",
+                "section_id",
+                "section_name"
+              ],
+              "dynamicPropertyPathList": [],
+              "displayName": "Table",
+              "bottomRow": 129,
+              "columnWidthMap": {
+                "task": 245,
+                "step": 70,
+                "status": 85
+              },
+              "parentRowSpace": 10,
+              "hideCard": false,
+              "dynamicTriggerPathList": [],
+              "borderWidth": "1",
+              "primaryColumns": {
+                "floor_num": {
+                  "allowCellWrapping": false,
+                  "index": 0,
+                  "width": 150,
+                  "originalId": "floor_num",
+                  "id": "floor_num",
+                  "alias": "floor_num",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "number",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "floor num",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Sections.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"floor_num\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "section_id": {
+                  "allowCellWrapping": false,
+                  "index": 1,
+                  "width": 150,
+                  "originalId": "section_id",
+                  "id": "section_id",
+                  "alias": "section_id",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "number",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "section id",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Sections.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"section_id\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "section_name": {
+                  "allowCellWrapping": false,
+                  "index": 2,
+                  "width": 150,
+                  "originalId": "section_name",
+                  "id": "section_name",
+                  "alias": "section_name",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "section name",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Sections.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"section_name\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                }
+              },
+              "key": "pltj8wso9w",
+              "canFreezeColumn": true,
+              "isDeprecated": false,
+              "rightColumn": 34,
+              "textSize": "0.875rem",
+              "widgetId": "bw8hu6rynq",
+              "minWidth": 450,
+              "tableData": "{{getAllSections.data}}",
+              "label": "Data",
+              "searchKey": "",
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "horizontalAlignment": "LEFT",
+              "isVisibleSearch": true,
+              "responsiveBehavior": "fill",
+              "isVisiblePagination": true,
+              "verticalAlignment": "CENTER"
             }
           ]
         },
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_getCustomers",
+              "id": "Northwind Setup_getAllSections",
+              "name": "getAllSections",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Northwind Setup_getCustomers",
               "name": "getCustomers",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -770,7 +976,7 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Page1_getMostExpensiveProducts",
+              "id": "Northwind Setup_getMostExpensiveProducts",
               "name": "getMostExpensiveProducts",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -778,7 +984,7 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Page1_getProducts",
+              "id": "Northwind Setup_getProducts",
               "name": "getProducts",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -789,14 +995,15 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "Northwind Setup",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
   "gitSyncId": "642d98c1f25e5e6ca65d6db7_642d98c1f25e5e6ca65d6db9"
