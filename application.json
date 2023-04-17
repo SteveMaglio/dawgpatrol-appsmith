@@ -3,6 +3,10 @@
     {
       "id": "Northwind Setup",
       "isDefault": true
+    },
+    {
+      "id": "Machine",
+      "isDefault": false
     }
   ],
   "viewMode": false,
