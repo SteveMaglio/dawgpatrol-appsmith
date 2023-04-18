@@ -21,7 +21,19 @@
       "isDefault": false
     },
     {
-      "id": "Page1",
+      "id": "Locker Room Vacancy Dashboard",
+      "isDefault": false
+    },
+    {
+      "id": "Class Info",
+      "isDefault": false
+    },
+    {
+      "id": "Update Student Health",
+      "isDefault": false
+    },
+    {
+      "id": "Staff clocking out",
       "isDefault": false
     }
   ],

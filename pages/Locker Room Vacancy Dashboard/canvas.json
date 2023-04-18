@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "Locker Room Vacancy Dashboard",
+    "slug": "locker-room-vacancy-dashboard",
     "layouts": [
       {
         "viewMode": false,
@@ -348,7 +348,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_getFemaleFullnessPercentage",
+              "id": "Locker Room Vacancy Dashboard_getFemaleFullnessPercentage",
               "name": "getFemaleFullnessPercentage",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -356,7 +356,7 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Page1_getFemaleNumLockersUsed",
+              "id": "Locker Room Vacancy Dashboard_getFemaleNumLockersUsed",
               "name": "getFemaleNumLockersUsed",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -364,7 +364,7 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Page1_getFemaleTotalLockerCount",
+              "id": "Locker Room Vacancy Dashboard_getFemaleTotalLockerCount",
               "name": "getFemaleTotalLockerCount",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -372,7 +372,7 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Page1_getMaleFullnessPercentage",
+              "id": "Locker Room Vacancy Dashboard_getMaleFullnessPercentage",
               "name": "getMaleFullnessPercentage",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -380,7 +380,7 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Page1_getMaleNumLockersUsed",
+              "id": "Locker Room Vacancy Dashboard_getMaleNumLockersUsed",
               "name": "getMaleNumLockersUsed",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -388,7 +388,7 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Page1_getMaleTotalLockerCount",
+              "id": "Locker Room Vacancy Dashboard_getMaleTotalLockerCount",
               "name": "getMaleTotalLockerCount",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -399,14 +399,15 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "Locker Room Vacancy Dashboard",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
   "gitSyncId": "643f0b6427ea561fec7f3e3c_643f0b7627ea561fec7f3e4c"
