@@ -15,6 +15,10 @@
     {
       "id": "Towels Used dashboard",
       "isDefault": false
+    },
+    {
+      "id": "Gym Crush",
+      "isDefault": false
     }
   ],
   "viewMode": false,
