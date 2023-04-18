@@ -21,11 +21,27 @@
       "isDefault": false
     },
     {
+<<<<<<< HEAD
       "id": "Music",
       "isDefault": false
     },
     {
       "id": "Move Employee",
+=======
+      "id": "Locker Room Vacancy Dashboard",
+      "isDefault": false
+    },
+    {
+      "id": "Class Info",
+      "isDefault": false
+    },
+    {
+      "id": "Update Student Health",
+      "isDefault": false
+    },
+    {
+      "id": "Staff clocking out",
+>>>>>>> master
       "isDefault": false
     }
   ],
