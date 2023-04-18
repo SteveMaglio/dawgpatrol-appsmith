@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Api1",
+    "name": "getAllCrushes",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/m/machines"
+        "url": "web:4000/stu/gymcrush/get"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Machine",
+    "pageId": "Gym Crush",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -29,6 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
+      "body": "",
       "bodyFormData": [],
       "httpMethod": "GET",
       "selfReferencingDataPaths": [],
@@ -41,7 +42,7 @@
         "apiContentType": "application/json"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -52,7 +53,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Machine_Api1",
+  "id": "Gym Crush_getAllCrushes",
   "deleted": false,
-  "gitSyncId": "643d824afd0ab1326e7e33c4_643e9cb627ea561fec7f3dc8"
+  "gitSyncId": "643eab5a8d696b3955324317_643f17fa8d696b3955324335"
 }
