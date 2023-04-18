@@ -1,0 +1,4 @@
+{
+	"stud_weight": "{{StuHealthForm.formData.form_weight_input}}",
+	"stud_height": "{{StuHealthForm.formData.form_height_input}}"
+}
