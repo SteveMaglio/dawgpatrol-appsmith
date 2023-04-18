@@ -19,6 +19,14 @@
     {
       "id": "Gym Crush",
       "isDefault": false
+    },
+    {
+      "id": "Music",
+      "isDefault": false
+    },
+    {
+      "id": "Move Employee",
+      "isDefault": false
     }
   ],
   "viewMode": false,
