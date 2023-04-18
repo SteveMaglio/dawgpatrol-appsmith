@@ -7,6 +7,14 @@
     {
       "id": "Machine",
       "isDefault": false
+    },
+    {
+      "id": "Machine Waittime dashboard",
+      "isDefault": false
+    },
+    {
+      "id": "Towels Used dashboard",
+      "isDefault": false
     }
   ],
   "viewMode": false,
