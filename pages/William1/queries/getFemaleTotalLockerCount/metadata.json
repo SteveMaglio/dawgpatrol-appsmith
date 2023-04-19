@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "getMaleFullnessPercentage",
+    "name": "getFemaleTotalLockerCount",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/stu/locker_room/percentage/male"
+        "url": "web:4000/stu/lockers/female"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Locker Room Vacancy Dashboard",
+    "pageId": "William1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -48,7 +48,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Locker Room Vacancy Dashboard_getMaleFullnessPercentage",
+  "id": "William1_getFemaleTotalLockerCount",
   "deleted": false,
-  "gitSyncId": "643f0b6427ea561fec7f3e3c_643f0bbf27ea561fec7f3e4e"
+  "gitSyncId": "643f0b6427ea561fec7f3e3c_643f0d9727ea561fec7f3e55"
 }
