@@ -35,6 +35,14 @@
     {
       "id": "Staff clocking out",
       "isDefault": false
+    },
+    {
+      "id": "Music",
+      "isDefault": false
+    },
+    {
+      "id": "move employee",
+      "isDefault": false
     }
   ],
   "viewMode": false,
