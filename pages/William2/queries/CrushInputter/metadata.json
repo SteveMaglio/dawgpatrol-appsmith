@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "getFemaleFullnessPercentage",
+    "name": "CrushInputter",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/stu/locker_room/percentage/female"
+        "url": "web:4000/stu/gymcrush/post"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "William1",
+    "pageId": "William2",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -29,8 +29,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
+      "body": "{{CrushForm.data}}",
       "bodyFormData": [],
-      "httpMethod": "GET",
+      "httpMethod": "POST",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -41,18 +42,24 @@
         "apiContentType": "application/json"
       }
     },
-    "executeOnLoad": true,
-    "dynamicBindingPathList": [],
+    "executeOnLoad": false,
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "CrushForm.data"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "William1_getFemaleFullnessPercentage",
+  "id": "William2_CrushInputter",
   "deleted": false,
-  "gitSyncId": "643f0b6427ea561fec7f3e3c_643f0c1827ea561fec7f3e50"
+  "gitSyncId": "643eab5a8d696b3955324317_644004f7e94c062e307acb3e"
 }

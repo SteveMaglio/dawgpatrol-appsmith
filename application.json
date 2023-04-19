@@ -50,6 +50,9 @@
   "unreadCommentThreads": 0,
   "color": "#ECECEC",
   "icon": "server",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,

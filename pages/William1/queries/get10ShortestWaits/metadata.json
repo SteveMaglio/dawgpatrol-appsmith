@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "getFemaleFullnessPercentage",
+    "name": "get10ShortestWaits",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/stu/locker_room/percentage/female"
+        "url": "web:4000/stu/10_shortest_waits"
       },
       "invalids": [],
       "messages": [],
@@ -52,7 +52,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "William1_getFemaleFullnessPercentage",
+  "id": "William1_get10ShortestWaits",
   "deleted": false,
-  "gitSyncId": "643f0b6427ea561fec7f3e3c_643f0c1827ea561fec7f3e50"
+  "gitSyncId": "643eab5a8d696b3955324317_644013024b26777045d1ba14"
 }
