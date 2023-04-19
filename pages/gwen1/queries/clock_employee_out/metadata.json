@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Api1",
+    "name": "clock_employee_out",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/emp/fire_employee"
+        "url": "web:4000/emp/off_shift"
       },
       "invalids": [],
       "messages": [],
@@ -59,7 +59,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "gwen1_Api1",
+  "id": "gwen1_clock_employee_out",
   "deleted": false,
   "gitSyncId": "643eab5a8d696b3955324317_64400418e94c062e307acb3c"
 }
