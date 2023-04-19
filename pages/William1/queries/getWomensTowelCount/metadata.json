@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "getMaleNumLockersUsed",
+    "name": "getWomensTowelCount",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/stu/students/locks_used/male"
+        "url": "web:4000/stu/locker_room/towel_count/Female"
       },
       "invalids": [],
       "messages": [],
@@ -48,7 +48,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "William1_getMaleNumLockersUsed",
+  "id": "William1_getWomensTowelCount",
   "deleted": false,
-  "gitSyncId": "643f0b6427ea561fec7f3e3c_643f0db427ea561fec7f3e57"
+  "gitSyncId": "64403708eea32869d33c862e_64403737eea32869d33c865c"
 }
