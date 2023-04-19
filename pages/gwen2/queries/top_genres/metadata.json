@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "gwen 2",
+    "pageId": "gwen2",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -52,7 +52,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "gwen 2_top_genres",
+  "id": "gwen2_top_genres",
   "deleted": false,
   "gitSyncId": "643eab5a8d696b3955324317_644019774b26777045d1ba1b"
 }

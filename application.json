@@ -37,7 +37,7 @@
       "isDefault": false
     },
     {
-      "id": "gwen 2",
+      "id": "gwen2",
       "isDefault": false
     },
     {
@@ -51,6 +51,9 @@
   "color": "#ECECEC",
   "icon": "server",
   "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
     "type": "FLUID"
   },
   "unpublishedCustomJSLibs": [],

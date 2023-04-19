@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "gwen 2",
-    "slug": "gwen-2",
+    "name": "gwen2",
+    "slug": "gwen2",
     "layouts": [
       {
         "viewMode": false,
@@ -808,7 +808,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "gwen 2_top_genres",
+              "id": "gwen2_top_genres",
               "name": "top_genres",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -819,7 +819,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "gwen 2",
+        "id": "gwen2",
         "deleted": false,
         "policies": [],
         "userPermissions": []

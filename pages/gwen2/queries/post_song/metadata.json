@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "new_machine",
+    "name": "post_song",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/m/machines"
+        "url": "web:4000/emp/music"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Machine",
+    "pageId": "gwen2",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -59,7 +59,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Machine_new_machine",
+  "id": "gwen2_post_song",
   "deleted": false,
-  "gitSyncId": "642ee4447c12fa7dc545d05f_643d72eab92df72c9547f22d"
+  "gitSyncId": "643f0b6427ea561fec7f3e3c_643f2d5a7dbaf56ab9e3a921"
 }
