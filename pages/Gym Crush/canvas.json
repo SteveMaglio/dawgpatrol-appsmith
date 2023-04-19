@@ -531,9 +531,9 @@
                   "id": "task",
                   "originalId": "task",
                   "alias": "task",
-                  "horizontalAlignment": "LEFT",
+                  "horizontalAlignment": "RIGHT",
                   "verticalAlignment": "CENTER",
-                  "columnType": "text",
+                  "columnType": "number",
                   "textSize": "0.875rem",
                   "enableFilter": true,
                   "enableSort": true,
@@ -665,7 +665,9 @@
               "name": "getAllCrushes",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "NUid.number"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
