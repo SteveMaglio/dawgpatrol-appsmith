@@ -2,7 +2,7 @@
   "pages": [
     {
       "id": "William1",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "William2",
@@ -17,8 +17,8 @@
       "isDefault": false
     },
     {
-      "id": "Page1",
-      "isDefault": false
+      "id": "Landing Page",
+      "isDefault": true
     }
   ],
   "viewMode": false,
