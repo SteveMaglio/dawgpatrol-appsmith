@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/emp/class_cap"
+        "url": "web:4000/stu/class_cap"
       },
       "invalids": [],
       "messages": [],
