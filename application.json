@@ -1,6 +1,10 @@
 {
   "pages": [
     {
+      "id": "Landing Page",
+      "isDefault": true
+    },
+    {
       "id": "William1",
       "isDefault": false
     },
@@ -9,16 +13,12 @@
       "isDefault": false
     },
     {
-      "id": "gwen2",
-      "isDefault": false
-    },
-    {
       "id": "gwen1",
       "isDefault": false
     },
     {
-      "id": "Landing Page",
-      "isDefault": true
+      "id": "gwen2",
+      "isDefault": false
     }
   ],
   "viewMode": false,
